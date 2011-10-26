@@ -1,0 +1,103 @@
+ru:
+  activerecord:
+    errors:
+      messages:
+        cant_create_time_on_object: "Can't create a time entry on a %{reason} %{thing}"
+        cant_assign_to_closed_deliverable: "Can't assign issue to a closed deliverable"
+        cant_assign_to_locked_deliverable: "Can't assign issue to a locked deliverable"
+        cant_assign_to_closed_contract: "Can't assign issue to a closed contract"
+        cant_assign_to_locked_contract: "Can't assign issue to a locked contract"
+        cant_update_locked_deliverable: "Can't update a locked deliverable"
+        cant_update_closed_deliverable: "Can't update a closed deliverable"
+        cant_update_locked_contract: "Can't update a locked contract"
+        cant_update_closed_contract: "Can't update a closed contract"
+        cant_create_deliverable_on_locked_contract: "Can't create a deliverable on a locked contract"
+        cant_create_deliverable_on_closed_contract: "Can't create a deliverable on a closed contract"
+
+  field_end_date: Дата завершения
+  field_executed: Executed
+  text_contracts: Контракты
+  field_id: ID
+  field_account_executive: Account Executive
+  field_account_executive_short: "Acct. Mgr."
+  field_end_date: "Дата завершения"
+  text_new_contract: "Новый контракт"
+  text_edit_contract_name: "Редактировать {{name}}"
+  field_billable_rate: "Billable Rate"
+  field_billable_rate_hint: "$"
+  field_discount: "Скидка"
+  field_discount_hint: "$, %"
+  field_discount_note: "Discounts Notes"
+  field_payment_term: "Условия оплаты (расчета)"
+  field_client_ap_contact_information: "AP Contact Info"
+  field_po_number: "PO Number"
+  field_details: "Детали"
+  button_add_new: Добавить новый
+  text_new_deliverable: New Deliverable
+  text_edit_deliverable_title: "Редактировать {{title}}"
+  field_manager: Менеджер
+  field_labor: Labor
+  field_overhead: Накладные расходы
+  field_fixed: Fixed
+  field_total: Итого
+  field_feature_sign_off: Feature Sign Off
+  field_warranty_sign_off: Warranty Sign Off
+  text_deliverable_finances: Deliverable Finances
+  text_deliverable_finances_date: "Deliverable Finances - {{date}}"
+  text_short_hours: hrs
+  text_dollar_sign: '$'
+  field_client_point_of_contact: "Point of Contact"
+  field_discount_budget: "Discount"
+  field_discount_spent: "Discount"
+  field_estimated_hour_budget: "Total Hours"
+  field_estimated_hour_spent: "Total Hours"
+  field_labor_hour_spent: "Labor Hours"
+  field_overhead_hour_spent: "Overhead Hours"
+  field_total_hours: "Total Hours"
+  field_fixed_budget: "Fixed"
+  field_fixed_spent: "Fixed"
+  field_labor_budget: "Labor"
+  field_labor_spent: "Labor"
+  field_fixed_markup_budget: "Markup"
+  field_fixed_markup_spent: "Markup"
+  field_overhead_budget: "Overhead"
+  field_overhead_spent: "Overhead"
+  field_profit_budget: "Profit"
+  field_profit_spent: "Profit"
+  field_total_budget: "Total Budget"
+  field_total_spent: "Contract Total"
+  field_contract_type: "Type"
+  field_deliverable: "Deliverable"
+  field_deliverable_plural: "Deliverables"
+  text_terms_and_financial_overview: "Contract Terms and Financial Overview"
+  text_general_legend: "General"
+  text_budget_legend: "Budget"
+  text_account_legend: "Account Management"
+  text_deliverable_details_legend: "Deliverable Details"
+  text_save_contract: "Save Contract"
+  enumeration_payment_term: "Payment Terms"
+  field_deliverable_title: "Deliverable"
+  field_contract_name: "Contract"
+  field_contract: "Contract"
+  text_start_date_empty: "The start date is empty. If this form is submitted, no budget items will be created."
+  text_end_date_empty: "The end date is empty. If this form is submitted, no budget items will be created."
+  text_missing_period: "This deliverable is missing a date range so it cannot have budget items. Please save start and end dates before adding any budget items."
+  text_changed_period_message: "The period for this deliverable has been changed. Would you like to expand/shrink the Deliverable Finances?"
+  field_current_period: "Current period"
+  text_retainer_monthly_message: "Enter budget for a representative month. Any overrides to individual months can be done via the editor after saving."
+  text_flash_deliverable_created: "Deliverable: {{name}} was successfully created."
+  text_flash_deliverable_updated: "Deliverable: {{name}} was successfully updated."
+  text_flash_deliverable_deleted: "Deliverable: {{name}} was successfully deleted."
+  field_budget: Budget
+  field_markup: Markup
+  field_paid: Paid
+  field_spent: Spent
+  field_profit: Profit
+  text_error_message_orphaned_time: "There is {{amount}} worth of time clocked to issues that are not assigned to any deliverables."
+  text_error_message_update_orphaned_time: "Please update the orphaned issues."
+  field_estimated: Estimated
+  text_deliverable_locked_warning: "This deliverable is locked and cannot be saved without changing it's status to Open."
+  text_deliverable_closed_warning: "This deliverable is closed and cannot be saved without changing it's status to Open."
+  text_contract_locked_warning: "This contract is locked and cannot be saved without changing it's status to Open."
+  text_contract_closed_warning: "This contract is closed and cannot be saved without changing it's status to Open."
+  field_time_entry_activity: "Activity"
