@@ -15,15 +15,15 @@ ru:
         cant_create_deliverable_on_closed_contract: "Can't create a deliverable on a closed contract"
 
   field_end_date: Дата завершения
-  field_executed: Executed
+  field_executed: Выполнен
   text_contracts: Контракты
   field_id: ID
-  field_account_executive: Account Executive
+  field_account_executive: Ответственный за расчеты
   field_account_executive_short: "Acct. Mgr."
   field_end_date: "Дата завершения"
   text_new_contract: "Новый контракт"
   text_edit_contract_name: "Редактировать {{name}}"
-  field_billable_rate: "Billable Rate"
+  field_billable_rate: "Оплачиваемая сумма"
   field_billable_rate_hint: "$"
   field_discount: "Скидка"
   field_discount_hint: "$, %"
@@ -36,7 +36,7 @@ ru:
   text_new_deliverable: New Deliverable
   text_edit_deliverable_title: "Редактировать {{title}}"
   field_manager: Менеджер
-  field_labor: Labor
+  field_labor: Производство
   field_overhead: Накладные расходы
   field_fixed: Fixed
   field_total: Итого
@@ -44,16 +44,16 @@ ru:
   field_warranty_sign_off: Warranty Sign Off
   text_deliverable_finances: Deliverable Finances
   text_deliverable_finances_date: "Deliverable Finances - {{date}}"
-  text_short_hours: hrs
+  text_short_hours: часов
   text_dollar_sign: '$'
   field_client_point_of_contact: "Point of Contact"
-  field_discount_budget: "Discount"
-  field_discount_spent: "Discount"
-  field_estimated_hour_budget: "Total Hours"
-  field_estimated_hour_spent: "Total Hours"
+  field_discount_budget: "Скидка"
+  field_discount_spent: "Скидка"
+  field_estimated_hour_budget: "Всего часов"
+  field_estimated_hour_spent: "Всего часов"
   field_labor_hour_spent: "Labor Hours"
   field_overhead_hour_spent: "Overhead Hours"
-  field_total_hours: "Total Hours"
+  field_total_hours: "Всего часов"
   field_fixed_budget: "Fixed"
   field_fixed_spent: "Fixed"
   field_labor_budget: "Labor"
@@ -70,15 +70,15 @@ ru:
   field_deliverable: "Deliverable"
   field_deliverable_plural: "Deliverables"
   text_terms_and_financial_overview: "Contract Terms and Financial Overview"
-  text_general_legend: "General"
-  text_budget_legend: "Budget"
-  text_account_legend: "Account Management"
+  text_general_legend: "Основное"
+  text_budget_legend: "Бюджет"
+  text_account_legend: "Управление счетом"
   text_deliverable_details_legend: "Deliverable Details"
-  text_save_contract: "Save Contract"
+  text_save_contract: "Сохранить контракт"
   enumeration_payment_term: "Payment Terms"
   field_deliverable_title: "Deliverable"
-  field_contract_name: "Contract"
-  field_contract: "Contract"
+  field_contract_name: "Контракт"
+  field_contract: "Контракт"
   text_start_date_empty: "The start date is empty. If this form is submitted, no budget items will be created."
   text_end_date_empty: "The end date is empty. If this form is submitted, no budget items will be created."
   text_missing_period: "This deliverable is missing a date range so it cannot have budget items. Please save start and end dates before adding any budget items."
@@ -88,9 +88,9 @@ ru:
   text_flash_deliverable_created: "Deliverable: {{name}} was successfully created."
   text_flash_deliverable_updated: "Deliverable: {{name}} was successfully updated."
   text_flash_deliverable_deleted: "Deliverable: {{name}} was successfully deleted."
-  field_budget: Budget
+  field_budget: Бюджет
   field_markup: Markup
-  field_paid: Paid
+  field_paid: Оплачено
   field_spent: Spent
   field_profit: Profit
   text_error_message_orphaned_time: "There is {{amount}} worth of time clocked to issues that are not assigned to any deliverables."
